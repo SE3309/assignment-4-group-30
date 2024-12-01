@@ -1,0 +1,39 @@
+.dashboard {
+    padding: 20px;
+  }
+  .dashboard h1 {
+    text-align: center;
+    color: #333;
+  }
+  .nav-links {
+    margin-bottom: 20px;
+  }
+  
+  .nav-links button {
+    margin-right: 10px;
+  }
+  
+  .poll-management {
+    margin-top: 20px;
+  }
+  
+  .poll-management table {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .poll-management th, .poll-management td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .poll-management th {
+    background-color: #f4f4f4;
+  }
+  
+  .error {
+    color: red;
+  }
+  

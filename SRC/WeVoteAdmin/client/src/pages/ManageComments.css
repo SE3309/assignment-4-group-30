@@ -1,0 +1,99 @@
+.manage-comments {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.manage-comments h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.comments-container {
+    margin-top: 20px;
+}
+
+.comment-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .comment-header p {
+    margin: 5px 0;
+    line-height: 1.5;
+    word-wrap: break-word; /* Ensure long text wraps nicely */
+  }
+  .comment-header button {
+    margin-left: 10px; /* Add space between text and button */
+  }
+  
+  .reply-item p {
+    margin: 5px 0;
+    line-height: 1.5;
+    word-wrap: break-word;
+  }
+  
+
+
+.replies-container {
+    margin-top: 10px;
+    padding-left: 20px;
+    border-left: 3px solid #ddd;
+}
+
+.reply-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.reply-item:last-child {
+    border-bottom: none;
+}
+
+.comments-container button {
+    background-color: #d9534f; /* Red for delete buttons */
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.comments-container button:hover {
+    background-color: #c9302c;
+}
+
+button:disabled {
+    background-color: #b3b3b3;
+    cursor: not-allowed;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .comment-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .comment-header button {
+        margin-top: 10px;
+    }
+}

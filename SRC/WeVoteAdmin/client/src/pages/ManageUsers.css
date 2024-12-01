@@ -1,0 +1,56 @@
+.manage-users {
+    padding: 20px;
+  }
+  
+  .manage-users h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .nav-links {
+    margin-bottom: 20px;
+  }
+  
+  .nav-links button {
+    margin-right: 10px;
+  }
+  
+  .user-management {
+    margin-top: 20px;
+  }
+  
+  .user-management table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-management th,
+  .user-management td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .user-management th {
+    background-color: #f4f4f4;
+  }
+  
+  .user-management button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .user-management button:hover {
+    background-color: #e60000;
+  }
+  
+  .user-management .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,68 @@
+.review-submissions {
+    padding: 20px;
+  }
+  
+  .review-submissions h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .nav-links {
+    margin-bottom: 20px;
+  }
+  
+  .nav-links button {
+    margin-right: 10px;
+  }
+  
+  .submissions-section {
+    margin-top: 20px;
+  }
+  
+  .submissions-section table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .submissions-section th,
+  .submissions-section td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .submissions-section th {
+    background-color: #f4f4f4;
+  }
+  
+  .submissions-section button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submissions-section button:hover {
+    background-color: #45a049;
+  }
+  
+  .submissions-section .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .submissions-section .grey-button {
+    background-color: #b0b0b0; /* Light grey */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submissions-section .grey-button:hover {
+    background-color: #8c8c8c; /* Darker grey on hover */
+  }
+  
