@@ -1,0 +1,30 @@
+:root {
+	font-family: var(--font-family-body);
+	--font-family-display: "Michroma", sans-serif;
+	--font-family-body: "Afacad Flux", sans-serif;
+	--font-family-handwritten: "Playpen Sans", "Comic Sans MS", cursive;
+	font-size: 16px;
+}
+body {
+	margin: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-family-display);
+}
+.generic-center {
+	width: min(400px, calc(100vw - 20px));
+	margin: 0px auto;
+}
+.generic-center-wide {
+	width: min(900px, calc(100vw - 20px));
+	margin: 0px auto;
+}
+.center-text {
+	text-align: center;
+}
+.align-text {
+	text-align: initial;
+}
+fieldset {
+	display: contents;
+}

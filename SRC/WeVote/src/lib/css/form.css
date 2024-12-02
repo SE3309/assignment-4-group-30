@@ -1,0 +1,108 @@
+
+.styled-form label {
+	display: block;
+	text-align: left;
+	margin: 10px 0;
+}
+.styled-form label input {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+
+	font: inherit;
+}
+
+.styled-form label input[type="text"],
+.styled-form label input[type="email"],
+.styled-form label input[type="password"] {
+	border: 2px solid hsl(180, 37%, 81%); /*TODO: get a color picker that works.*/
+	border-radius: 5px;
+	background-color: hsl(180, 100%, 100%, 0.4);
+	padding: 4px 6px;
+	box-shadow: 0px 0px 10px hsla(180, 35%, 100%, 1) inset;
+	outline: none;
+	color: inherit;
+
+	transition: border 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+.styled-form label input[type="text"]:focus,
+.styled-form label input[type="email"]:focus,
+.styled-form label input[type="password"]:focus {
+	background-color: hsl(180, 100%, 100%, 1);
+	border: 2px solid hsl(180, 100%, 30%);
+	box-shadow: 0px 0px 2px hsla(180, 100%, 30%, 0.7) inset;
+	color: black;
+}
+.styled-form label input[type="text"]::placeholder,
+.styled-form label input[type="email"]::placeholder,
+.styled-form label input[type="password"]::placeholder {
+	color: hsl(180, 40%, 20%, 0.6)
+}
+
+.styled-form button[type="submit"] {
+	/* font-family: var(--font-family-display); */
+	/* font-weight: bold; */
+	font: inherit;
+	font-size: 1rem;
+	border-radius: 1000px;
+	border: none;
+	color: hsl(180deg 100% 15.75%);
+	background-color: hsl(180, 50%, 95%);
+	padding: 10px 30px;
+	box-shadow: 
+		0px 0px 5px hsla(180, 50%, 20%, 0.3),
+		0px 3px 3px hsl(180, 50%, 100%, 1) inset,
+		0px 0px 2px hsl(180, 50%, 20%) inset
+	;
+	
+	text-wrap: nowrap;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	position: relative;
+	z-index: 0;
+
+	margin: 10px 0px;
+
+	outline: 2px solid transparent;
+
+	transition: outline 0.3s ease, outline-offset 0.3s ease;
+}
+.styled-form button[type="submit"]:hover {
+	outline: 2px solid hsl(180, 100%, 30%, 0.5);
+}
+.styled-form button[type="submit"]:focus-visible {
+	outline: 2px solid hsl(180, 100%, 30%);
+}
+.styled-form button[type="submit"]:active {
+	outline: 2px solid hsl(180, 100%, 30%);
+	outline-offset: 2px;
+}
+.styled-form button[type="submit"]::before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	inset: 3.5px 4px;
+	border-radius: 1000px;
+	box-shadow: 
+		0px 0px 2px hsla(180, 50%, 20%, 0.5),
+		0px 2px 3px hsl(180, 50%, 100%, 1) inset,
+		0px 0px 3px hsl(180, 50%, 20%, 0.3) inset
+	;
+	background-color: transparent;
+
+	transition: box-shadow 0.2s ease, background-color 0.2s ease;
+}
+.styled-form button[type="submit"]:active::before {
+	box-shadow: 
+		0px 0px 2px hsla(180, 50%, 20%, 0.5),
+		0px -10px 7px hsl(180, 50%, 100%, 0.8) inset,
+		0px 3px 7px hsl(180, 50%, 20%, 0.3) inset
+	;
+	/* background-color: hsla(180, 100%, 80%, 0.3); */
+}
+
+.styled-form.busy {
+	/* filter: blur(5px); */
+}

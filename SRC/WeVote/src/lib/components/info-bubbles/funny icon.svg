@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 115 115" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-181,0)">
+        <g id="Artboard2" transform="matrix(1,0,0,1.00877,-0.666667,0)">
+            <rect x="181.667" y="0" width="115" height="114" style="fill:none;"/>
+            <g transform="matrix(0.579555,0.153941,-0.178949,0.662039,205.061,6.62498)">
+                <path d="M48,24.017L48,72.983C48,80.167 41.279,86 33,86C24.721,86 18,80.167 18,72.983L18,24.017C18,16.833 24.721,11 33,11C41.279,11 48,16.833 48,24.017Z" style="fill:none;stroke:white;stroke-width:7.75px;"/>
+            </g>
+            <g transform="matrix(2.41026,0,0,2.3893,-285.863,-122.653)">
+                <circle cx="203.175" cy="87.735" r="3.735" style="fill:none;stroke:white;stroke-width:2.08px;"/>
+            </g>
+            <g transform="matrix(2.41026,0,0,2.3893,-238.885,-122.653)">
+                <circle cx="203.175" cy="87.735" r="3.735" style="fill:none;stroke:white;stroke-width:2.08px;"/>
+            </g>
+            <g transform="matrix(0.627509,0.166678,-0.168141,0.622053,247.797,14.5393)">
+                <path d="M38.083,33.662C38.084,33.623 38.084,33.585 38.084,33.55C38.084,29.047 33.522,27.771 29.745,27.638C27.705,27.567 25.648,27.865 23.935,28.698C23.183,29.063 22.394,29.531 22.394,30.472C22.394,38.258 16.072,44.579 8.286,44.579C0.5,44.579 -5.822,38.258 -5.822,30.472C-5.822,13.902 5.907,3.16 21.031,0.199C41.642,-3.835 66.3,7.958 66.3,33.55C66.3,44.153 62.399,49.908 57.616,54.205C55.888,55.757 53.966,57.076 51.946,58.308C50.741,59.044 49.263,59.448 48.296,60.649C47.814,61.247 48.079,62.2 48.105,63.591C48.251,71.376 42.049,77.815 34.264,77.961C26.479,78.106 20.041,71.905 19.895,64.12C19.61,48.918 25.499,42.406 31.834,37.712C33.255,36.659 34.743,35.732 36.231,34.838C36.743,34.53 37.525,34.025 38.083,33.662Z" style="fill:none;stroke:white;stroke-width:7.73px;"/>
+            </g>
+        </g>
+    </g>
+</svg>
